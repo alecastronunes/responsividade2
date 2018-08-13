@@ -1,0 +1,38 @@
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+h1{
+    color:red;
+}
+
+img{
+    width: 400px;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: blue;
+            }
+        img{
+            max-width: 100%;
+        }
+}
+
+@media screen and (max-width:280px){
+    h1{
+        font-size: 10px;
+        color:#fff;
+    }
+
+    .box{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px){
+    h1{font-size: 20px;
+    }
+}
+
